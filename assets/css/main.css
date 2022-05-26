@@ -1846,6 +1846,9 @@ input, select, textarea {
 			line-height: 3em;
 			cursor: default;
 		}
+	#header h1 img {
+			width:200px;
+		}
 
 			#header h1 a {
 				font-size: 1.25em;
@@ -1893,6 +1896,9 @@ input, select, textarea {
 					top: 0;
 					height: 2.5em;
 					line-height: 2.5em;
+				}
+            	#header h1 img {
+					    height: 45px;
 				}
 
 					#header h1 a {
@@ -2244,7 +2250,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/iStock-623897682.png");
+		background: url("images/overlay.png"), url("../../images/world-tree.png");
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
